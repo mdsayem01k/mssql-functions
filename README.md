@@ -1,7 +1,19 @@
-# mssql-functions
-This repository serves as a resource for SQL Server function development
+# MSSQL Functions
 
-```
+This repository contains a collection of SQL Server functions developed for use with the BlueChipDB database. The functions include:
+
+- **showMessage**: Returns a simple greeting message.
+- **squareFunc**: Computes the square of a given integer.
+- **addition**: Adds two integers and returns the result.
+- **Voters**: Checks voter eligibility based on age and returns an appropriate message.
+
+Each function is tested with example queries for easy reference. This repository serves as a resource for SQL Server function development and can be useful for developers looking to enhance their database operations.
+
+## SQL Code Snippets
+
+```sql
+USE BlueChipDB;
+
 -- Function to show a message
 CREATE FUNCTION showMessage()
 RETURNS varchar(200)
@@ -54,5 +66,3 @@ END;
 
 -- Test the Voters function
 SELECT dbo.Voters(17);
-```
-
