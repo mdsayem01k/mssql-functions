@@ -12,7 +12,6 @@ Each function is tested with example queries for easy reference. This repository
 ## SQL Code Snippets
 
 ```sql
-USE BlueChipDB;
 
 -- Function to show a message
 CREATE FUNCTION showMessage()
