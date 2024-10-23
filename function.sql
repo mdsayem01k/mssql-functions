@@ -1,4 +1,3 @@
-USE BlueChipDB;
 
 -- Function to show a message
 CREATE FUNCTION showMessage()
